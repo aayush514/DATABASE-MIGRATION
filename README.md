@@ -50,17 +50,6 @@ Migrate employee data from a MySQL database to PostgreSQL while maintaining full
 
 ---
 
-## 🔍 Task Examples
-
-### ✅ WINDOW FUNCTION
-![COMMON TABLE EXPRESSION(CTE)](screenshots/CTE.png)
-
-### ✅ SUBQUERY
-![SUBQUERY](screenshots/Subquery.png)
-
-### ✅ COMMON TABLE EXPRESSION(CTE)
-![WINDOW FUNCTION](screenshots/Window_Function.png)
-
 ## 🚀 How It Works
 
 1. Created and populated a MySQL table.
