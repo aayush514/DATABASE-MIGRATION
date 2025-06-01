@@ -1,0 +1,29 @@
+
+CREATE TABLE employees (
+    emp_id INT PRIMARY KEY,
+    name VARCHAR(50),
+    department VARCHAR(50),
+    salary DECIMAL(10, 2)
+);
+
+INSERT INTO employees (emp_id, name, department, salary) VALUES
+(1, 'Alice', 'HR', 50000),
+(2, 'Bob', 'Finance', 60000),
+(3, 'Charlie', 'IT', 75000),
+(4, 'David', 'Marketing', 55000),
+(5, 'Eva', 'HR', 52000),
+(6, 'Frank', 'IT', 77000),
+(7, 'Grace', 'Finance', 62000),
+(8, 'Hannah', 'Marketing', 58000),
+(9, 'Ian', 'IT', 80000),
+(10, 'Jane', 'HR', 51000),
+(11, 'Kevin', 'Finance', 61000),
+(12, 'Liam', 'IT', 73000),
+(13, 'Mia', 'Marketing', 57000),
+(14, 'Nina', 'HR', 54000),
+(15, 'Oscar', 'Finance', 65000),
+(16, 'Paul', 'IT', 76000),
+(17, 'Quinn', 'Marketing', 59000),
+(18, 'Rose', 'HR', 53000),
+(19, 'Steve', 'IT', 79000),
+(20, 'Tina', 'Finance', 63000);

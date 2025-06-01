@@ -1,0 +1,47 @@
+# Task 3 – Data Migration Report
+
+## Objective:
+To migrate employee data from a MySQL database to PostgreSQL while ensuring data accuracy and integrity.
+
+## Tools Used:
+- MySQL Workbench
+- pgAdmin 4
+- CSV (Comma-Separated Values) format
+- Python (to generate sample data)
+- Operating System: Windows 10
+
+## Steps Followed:
+
+### 1. Data Creation in MySQL:
+- A database `company` was created in MySQL.
+- A table named `employees` was created with 4 columns: emp_id, name, department, and salary.
+- 20 rows of realistic sample employee data were inserted.
+
+### 2. Exporting MySQL Data:
+- A `SELECT * FROM employees` query was executed and the results were exported to a CSV file `employees.csv` using Workbench export wizard.
+
+### 3. Creating the Table in PostgreSQL:
+- A new database `company_pg` was created in PostgreSQL using pgAdmin 4.
+- The `employees` table schema was recreated in `company_pg` using SQL.
+
+### 4. Importing the CSV File into PostgreSQL:
+- Using pgAdmin’s “Import/Export” tool, the CSV was successfully imported into the PostgreSQL `employees` table.
+- Column mappings and delimiters were configured properly.
+
+### 5. Verifying Data Integrity:
+- Ran `SELECT COUNT(*)` on both databases.
+- Both MySQL and PostgreSQL returned 20 rows.
+- Manual inspection confirmed that all values matched between systems.
+
+## Screenshots:
+- MySQL table and row count
+- PostgreSQL table and row count
+- CSV import window
+- Side-by-side comparison of MySQL and PostgreSQL
+
+## Result:
+✅ Migration from MySQL to PostgreSQL completed successfully with all 20 records preserved and verified.
+
+## Conclusion:
+This task demonstrated the ability to migrate relational data between SQL systems and ensure accuracy through verification queries and testing.
+
