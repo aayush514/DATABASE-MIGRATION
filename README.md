@@ -67,5 +67,3 @@ Migrate employee data from a MySQL database to PostgreSQL while maintaining full
 
 ---
 
-## 📂 Repository Structure
-
